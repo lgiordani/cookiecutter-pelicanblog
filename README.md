@@ -1,5 +1,7 @@
 # cookiecutter-pelicanblog
 
+Version 1.0
+
 This is a template for a pelican blog. It creates a development environment with a virtual environment and some scripts to simplify the workflow.
 
 ## Usage
