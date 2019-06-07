@@ -1,0 +1,7 @@
+HOWTO
+deploy
+pelican-plugins
+pelican-themes
+*.pid
+pelican/output
+*.pyc

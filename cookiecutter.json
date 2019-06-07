@@ -1,11 +1,8 @@
 {
-    "full_name": "Your Full Name",
-    "email": "your.email@domain.com",
     "github_username": "yourusername",
-    "blog_source_repo": "blog_source",
-    "virtualenv_name": "venv",
-    "python_version": "python2",
-    "version_file_name": "version.txt",
+    "source_repository": "blog_source",
+    "deploy_repository": "{{cookiecutter.github_username}}.github.com",
     "deploy_directory": "deploy",
-    "deploy_repository": "git@github.com:{{cookiecutter.github_username}}/{{cookiecutter.github_username}}.github.com.git"
+    "use_versioning": "y",
+    "use_git_flow": "y"
 }

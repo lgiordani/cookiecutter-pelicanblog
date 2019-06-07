@@ -1,0 +1,3 @@
+pelican
+Markdown
+{% if cookiecutter.use_versioning == 'y' -%}punch.py{%- endif %}
