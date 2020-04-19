@@ -12,11 +12,11 @@ git flow init -d
 {% endif %}
 
 if [[ ! -d pelican-plugins ]]; then
-    git clone https://github.com/getpelican/pelican-plugins.git pelican-plugins
+    git clone --recursive https://github.com/getpelican/pelican-plugins.git pelican-plugins
 fi
 
 if [[ ! -d pelican-themes ]]; then
-    git clone https://github.com/getpelican/pelican-themes.git pelican-themes
+    git clone --recursive https://github.com/getpelican/pelican-themes.git pelican-themes
 fi
 
 if [[ ! -d {{cookiecutter.deploy_directory}} ]]; then
