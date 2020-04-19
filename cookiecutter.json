@@ -1,7 +1,7 @@
 {
     "github_username": "yourusername",
     "source_repository": "blog_source",
-    "deploy_repository": "{{cookiecutter.github_username}}.github.com",
+    "deploy_repository": "{{cookiecutter.github_username}}.github.io",
     "deploy_directory": "deploy",
     "use_versioning": "y",
     "use_git_flow": "y"
